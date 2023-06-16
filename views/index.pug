@@ -1,0 +1,55 @@
+doctype html 
+html
+    head 
+        style 
+            include ../static/style.css
+    body
+        
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="../static/img/logo.jpg")
+                    | DID
+                li #[a(href = '/') Home ]
+                li #[a(href = '/') About]
+                li #[a(href = '/') Services ]
+                li #[a(href = '/') Contact Us ]
+        section#introSection 
+            div.small Welcome To Dance India Dance Acadmey
+            div.big --------------------------------------------------
+            div.small Live To Dance
+        section#achievements 
+            h2 Achievements 
+            div.card 
+                h3 AIR-1 
+                div.card-box
+                    div.card-img
+                        img(src= "../static/img/1.png")
+                    div.card-content
+                        p All India Rank (AIR) is the rank obtained on all India basis. 
+            div.card 
+                h3 NAAC-1
+                div.card-box
+                    div.card-img
+                        img(src= "../static/img/2.png")
+                    div.card-content
+                        p National Assessment and Accreditation Council (NAAC) is an autonomous.  
+            div.card
+                h3 AIU-1
+                div.card-box
+                    div.card-img
+                        img(src= "../static/img/3.png")
+                    div.card-content
+                        p It is the Association of Indian Universities.
+        section#sponsorSection 
+            h1 Section for sponsors 
+            div#sponsors
+                img(src="../static/img/apple.jpeg", alt="Apple Image" , class="spImage")
+                img(src="../static/img/hp.png", alt="HP Image" , class="spImage")
+                img(src="../static/img/ms.png", alt="MS Image" , class="spImage")
+                img(src="../static/img/skype.png", alt="Skype Image" , class="spImage")
+        footer#footer 
+            |All rights : Reserved
+            | |
+            | Copyright © 2023 DanceIndiaDance.in
+            include ../static/index.js

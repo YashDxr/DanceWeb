@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sofia&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* NAVBAR SECTION */
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+
+
+#navbar{
+    border: 1px solid whitesmoke;
+    background-color: black;
+    padding: 12px , 13px;
+    font-family: "Sofia", sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    /* background-color: black; */
+}
+#navbar li{
+    list-style: none;
+    border: 2px solid burlywood;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+li:hover{
+    border-radius: 5px;
+    background-color: red;
+}
+
+
+/* INTRO SECTION */
+
+
+#introSection{
+    border: 1px solid whitesmoke;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("../static/img/Bg1.jpg");
+    height: 500px;
+    background-color: orange;
+}
+#introSection div.small{
+    font-size: 50px;
+    color: yellowgreen;
+}
+#introSection div.big{
+    color: rgb(248, 255, 186);
+}
+
+
+/* ACHIEVEMENT SECTION */
+
+
+#achievements{
+    /* height: 326px; */
+    /* width: 100%; */
+    /* margin: auto; */
+    background-color: black;
+    border: 1px solid whitesmoke;
+}
+#achievements h2{
+    color: white;
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width:400px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 210px;
+}
+/* .card:hover{
+    filter: invert(1);
+} */
+.card h3{
+    color: white;
+    text-align: center;
+    margin:0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    filter: invert(1);
+}
+.card-content{
+    color: white;
+
+}
+
+
+
+
+/* SPONSOR SECTION */
+
+
+
+#sponsorSection{
+    padding-top: 30px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 1px solid whitesmoke;
+    height: 300px;
+    background-color: black;
+}
+#sponsorSection h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: xx-large;
+}
+#sponsors{
+    height: 198px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 50%;
+    width: 10%;
+    margin: 50px;
+    border-radius: 20px;
+    /* filter: invert(1); */
+}
+#footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    border: 1px solid whitesmoke;
+    height: 60px;
+    background-color: black;
+    font-size: large;
+}
